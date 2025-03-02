@@ -5,7 +5,7 @@ import Skills from '@/components/skills'
 import Projects from '@/components/projects'
 import Contact from '@/components/contact'
 import Footer from '@/components/footer'
-import { Analytics } from '@vercel/analytics/react'
+
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-      <Analytics/>
       <Footer />
     </main>
   )
